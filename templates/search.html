@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block content %}
+    <head>
+        <title>MyWeather</title>
+    </head>
+    
+    <body>
+        <div id="bod">
+        <h1>Your weather: </h1>
+        Current temperature of {{ city }} is {{ current_temp_f }}&#8457, {{ current_temp_c }}&#8451;
+    </div>
+    </body>
+
+{% endblock %}
+    

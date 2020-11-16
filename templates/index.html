@@ -1,0 +1,17 @@
+
+{% extends "layout.html" %}
+{% block content %}
+    <head>
+        <title>MyWeather</title>
+    </head>
+    
+    <body>
+        <div id="bod">
+        <h1>Search MyWeather</h1>
+            <form action = "/search">
+            <input name = "city" type = "text"></br></br>
+            <input type = "submit" id="submit" name="submit" value="Search">
+        </div></form>
+
+    </body>
+{% endblock %}
